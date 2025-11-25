@@ -57,3 +57,9 @@ Thumbs.db
 # Ignore local maven repository (if checked into the project for any reason)
 /.m2/
 
+# Allure artifacts
+.allure/
+
+# Helper / temporary files
+PR-DIFF.md
+CHANGES.md
