@@ -1,0 +1,59 @@
+# Build / output
+/target/
+/build/
+
+# Maven wrapper and caches
+/.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+/.idea/
+*.iml
+*.iws
+*.ipr
+/.classpath
+/.project
+/.settings/
+.vscode/
+
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# Playwright project-local browsers and cache
+.playwright-browsers/
+.playwright/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java artifacts
+*.jar
+*.war
+*.ear
+
+# Test / reports
+/target/allure-results/
+/target/surefire-reports/
+/target/failsafe-reports/
+
+# Misc
+.terraform/
+.env
+
+# JetBrains plugin caches
+/.idea/**/workspace.xml
+/.idea/**/tasks.xml
+/.idea/**/usage.statistics.xml
+
+# Ignore local maven repository (if checked into the project for any reason)
+/.m2/
+
